@@ -8,9 +8,9 @@ setup(
     description="",
     py_modules=["actividad_1","actividad_2"],
     install_requires=[
-        "pandas",
-        "numpy",
+        "pandas==2.2.3",
         "openpyxl",
-        "requests"
+        "requests==2.32.3",
+        "beautifulsoup4==4.13.3"
     ]
 ) 
