@@ -1,0 +1,2 @@
+[2025-05-09 00:43:23 | DolarAnalysis | Main | main | INFO] Inicializar clase Logger
+[2025-05-09 00:43:29 | DolarAnalysis | Enricher | calcular_kpi | ERROR] Error al enriquecer el df

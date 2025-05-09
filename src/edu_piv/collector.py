@@ -11,10 +11,10 @@ class Collector:
     def __init__(self,logger):
         self.url= 'https://es.finance.yahoo.com/quote/EURUSD%3DX/history/?period1=1070236800&period2=1746572932'
         self.logger = logger
-        if not os.path.exists('/src/edu_piv/static'):
-            os.makedirs('/src/edu_piv/static')
-        if not os.path.exists('/src/edu_piv/static/data'):
-            os.makedirs('/src/edu_piv/static/data')
+        if not os.path.exists('src/edu_piv/static'):
+            os.makedirs('src/edu_piv/static')
+        if not os.path.exists('src/edu_piv/static/data'):
+            os.makedirs('src/edu_piv/static/data')
 
     def collertor_data(self):
         try:
