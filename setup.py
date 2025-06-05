@@ -9,6 +9,8 @@ setup(
     py_modules=["actividad_1","actividad_2"],
     install_requires=[
         "streamlit",
+        "streamlit-pandas-profiling",
+        "ydata-profiling",
         "pandas==2.2.3",
         "openpyxl",
         "requests==2.32.3",
