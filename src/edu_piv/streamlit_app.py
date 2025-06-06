@@ -16,7 +16,7 @@ def main():
     df_2 = df[columnas]
     profile = ProfileReport(df_2, title="Dashboard Indicador Dolar")
     st.title("Análisis de Datos")
-    st.write(profile.to_html(), unsafe_allow_html=True)
+    st.write(profile)
 
     #st_profile_report(profile)
 
