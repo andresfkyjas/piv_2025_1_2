@@ -2,3 +2,5 @@ streamlit
 ydata-profiling
 pandas==2.2.3
 openpyxl
+setuptools
+pkg_resources==68.0.0
