@@ -17,6 +17,7 @@ def main():
     profile = ProfileReport(df_2, title="Dashboard Indicador Dolar")
     st.title("Análisis de Datos")
     st.write(profile)
+    #profile.to_file("Analysis.html")
 
     #st_profile_report(profile)
 
